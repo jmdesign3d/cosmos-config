@@ -1,3 +1,4 @@
+name: cosmos_config
 build:
   settings:
     board_root: .
