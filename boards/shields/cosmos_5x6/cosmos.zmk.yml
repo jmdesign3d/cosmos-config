@@ -1,0 +1,12 @@
+file_format: "1"
+id: cosmos
+name: cosmos5x6
+type: shield
+url: https://github.com/jmdesign3d/cosmos-config
+requires: [nice_nano_v2]
+features:
+  - keys
+  - pointer
+siblings:
+  - cosmos_left
+  - cosmos_right
