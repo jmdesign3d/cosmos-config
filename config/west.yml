@@ -14,5 +14,6 @@ manifest:
       import: app/west.yml
     - name: cosmos-config
       remote: jmdesign3d
+      revision: main
   self:
     path: config
