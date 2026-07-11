@@ -20,4 +20,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: cosmos5x6_left
+    shield: cosmos_left

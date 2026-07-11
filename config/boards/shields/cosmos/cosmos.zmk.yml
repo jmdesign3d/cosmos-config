@@ -1,6 +1,6 @@
 file_format: "1"
 id: cosmos
-name: cosmos5x6
+name: Cosmos
 type: shield
 url: https://github.com/jmdesign3d/cosmos-config
 requires: [nice_nano_v2]
