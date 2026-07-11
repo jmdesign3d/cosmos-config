@@ -1,38 +1,38 @@
 
 if SHIELD_COSMOS_LEFT
 
-config ZMK_KEYBOARD_NAME
+CONFIG_ZMK_KEYBOARD_NAME
     default "COSMOS"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+CONFIG_ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
 if SHIELD_COSMOS_LEFT || SHIELD_COSMOS_RIGHT
 
-config ZMK_SPLIT
+CONFIG_ZMK_SPLIT
     default y
 
 if ZMK_DISPLAY
 
-config I2C
+CONFIG_I2C
     default y
 
-config SSD1306
+CONFIG_SSD1306
     default y
 
 endif # ZMK_DISPLAY
 
 if LVGL
 
-config LV_Z_VDB_SIZE
+CONFIG_LV_Z_VDB_SIZE
     default 64
 
-config LV_DPI_DEF
+CONFIG_LV_DPI_DEF
     default 148
 
-config LV_Z_BITS_PER_PIXEL
+CONFIG_LV_Z_BITS_PER_PIXEL
     default 1
 
 choice LV_COLOR_DEPTH

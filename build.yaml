@@ -21,3 +21,5 @@
 include:
   - board: nice_nano
     shield: cosmos_left
+  - board: nice_nano
+    shield: settings_reset
